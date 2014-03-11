@@ -49,7 +49,7 @@ h4 {
   line-height: 1; }
 
 header {
-  background: url(../img/header-bg.jpg) no-repeat bottom center;
+  background: white url(../img/header-bg.jpg) no-repeat bottom center;
   background-size: cover;
   position: fixed;
   top: 0;
@@ -111,7 +111,7 @@ section {
 #portfolio img {
   display: block;
   max-width: 100%;
-  opacity: 0.3;
+  opacity: 0.6;
   -webkit-filter: grayscale(100%);
   -webkit-transition: 0.3s all linear;
   -moz-transition: 0.3s all linear;

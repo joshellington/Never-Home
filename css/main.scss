@@ -56,7 +56,7 @@ h4 {
 }
 
 header {
-  background: url(../img/header-bg.jpg) no-repeat bottom center;
+  background: white url(../img/header-bg.jpg) no-repeat bottom center;
   // background: $accent;
   background-size: cover;
   position: fixed;
@@ -136,7 +136,7 @@ section {
   img {
     display: block;
     max-width: 100%;
-    opacity: 0.3;
+    opacity: 0.6;
     -webkit-filter: grayscale(100%);
     @include transition(0.3s all linear);
 
