@@ -1,0 +1,188 @@
+@font-face {
+  font-family: BeeTwo;
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/bee-two-webfont.eot");
+  src: url("fonts/bee-two-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/bee-two-webfont.woff") format("woff"), url("fonts/bee-two-webfont.ttf") format("truetype"), url("fonts/bee-two-webfont.svg#BeeTwo") format("svg"); }
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  color: #222222; }
+
+a {
+  color: #87c9e2;
+  text-decoration: none;
+  -webkit-transition: 0.3s color linear;
+  -moz-transition: 0.3s color linear;
+  transition: 0.3s color linear; }
+  a:hover {
+    color: #222222; }
+
+p, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0; }
+
+p, h2, h4 {
+  font-family: 'Neuton', serif;
+  font-weight: normal;
+  line-height: 1.3; }
+
+h2 {
+  font-size: 32px; }
+
+h3 {
+  font-family: BeeTwo;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  font-size: 48px;
+  margin: 0 0 60px;
+  letter-spacing: 8px;
+  line-height: 1; }
+
+h4 {
+  font-family: BeeTwo;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 1; }
+
+header {
+  background: url(../img/header-bg.jpg) no-repeat bottom center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0; }
+  header .content {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    text-align: center; }
+  header .logo {
+    width: 250px;
+    height: 249px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+    margin: 0 auto 30px; }
+  header p {
+    margin: 0;
+    padding: 0;
+    color: white; }
+
+.wrapper {
+  position: relative;
+  z-index: 3;
+  background: white; }
+
+.container {
+  border-top: 1px solid #eee;
+  padding: 60px 0; }
+
+section {
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center; }
+
+#about {
+  max-width: 600px; }
+
+#portfolio .work {
+  width: 46%;
+  margin: 0 2%;
+  float: left; }
+#portfolio .video-image {
+  display: block;
+  max-height: 270px;
+  overflow: hidden;
+  vertical-align: middle;
+  position: relative;
+  -webkit-transition: 0.3s all linear;
+  -moz-transition: 0.3s all linear;
+  transition: 0.3s all linear; }
+  #portfolio .video-image:hover {
+    background: #87c9e2; }
+#portfolio img {
+  display: block;
+  max-width: 100%;
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: 0.3s all linear;
+  -moz-transition: 0.3s all linear;
+  transition: 0.3s all linear; }
+#portfolio h4 {
+  padding-top: 30px; }
+#portfolio p {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 16px;
+  max-width: 75%;
+  margin: 0 auto; }
+
+#clients {
+  text-align: center; }
+  #clients img {
+    max-height: 45px;
+    margin: 0 20px; }
+
+#contact h2 {
+  font-size: 20px; }
+
+.mark {
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  background: url(../img/mark.png) no-repeat;
+  background-size: contain; }
+
+footer {
+  background: #87c9e2;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 13px;
+  color: white; }
+  footer p {
+    padding-top: 15px; }
+
+@media all and (max-width: 960px) {
+  .container {
+    padding: 30px; }
+
+  header {
+    position: relative;
+    top: auto;
+    left: auto;
+    height: auto;
+    width: auto;
+    padding: 30px 0; }
+    header .content {
+      width: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+      margin: auto; }
+    header .logo {
+      margin: 0 auto; }
+
+  h2 {
+    font-size: 20px; }
+
+  h3 {
+    margin: 0 0 30px; }
+
+  #portfolio .work {
+    width: 100%;
+    margin: 15px 0 30px;
+    float: none; }
+    #portfolio .work p {
+      max-width: 100%;
+      margin: 0; }
+
+  #clients img {
+    margin: 20px 20px 0; } }
