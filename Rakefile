@@ -1,5 +1,5 @@
 ssh_user = "ellingtj@joshellington.com" # for rsync deployment
-remote_root = "/home/ellingtj/joshellington.com/neverhome/"
+remote_root = "/home/ellingtj/neverhomemusic.com/"
 stage_remote_root = "/home/ellingtj/joshellington.com/neverhome/"
 
 task :deploy do
