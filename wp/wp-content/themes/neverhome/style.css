@@ -1,0 +1,16 @@
+/*
+Theme Name: Never Home
+Theme URI: http://joshellington.com
+Author: Josh Ellington
+Author URI: http://joshellington.com
+Description: Absolute minimum.
+Version: 0.1
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+Tags:
+Text Domain:
+*/
+
+@import 'css/normalize.min.css';
+@import 'css/popup.css';
+@import 'css/main.css';
